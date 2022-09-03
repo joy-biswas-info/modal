@@ -5,3 +5,53 @@
     outline: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #6e6e6e;
+}
+h2{
+    margin:0 0 15px 0;
+}
+.container{
+    width: 450px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+.first-row{
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.info,.cros{
+    color: blue;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #3e09ff2a;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.continue{
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.cancel{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+}
